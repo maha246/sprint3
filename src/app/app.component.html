@@ -1,0 +1,8 @@
+<app-header></app-header>
+<app-export></app-export>
+<div class = "categories">
+    <app-category-list class="category" *ngFor="let x of categories" [category]="x">
+    </app-category-list>
+</div>
+<app-navigation-bar></app-navigation-bar>
+<router-outlet></router-outlet>
